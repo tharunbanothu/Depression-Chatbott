@@ -1,0 +1,98 @@
+{
+  "id": "e8139446-4eed-44ca-976b-e9dd28cc3f70",
+  "parentId": "8daa0f69-e763-41da-b102-f4f04b70342f",
+  "rootParentId": "8daa0f69-e763-41da-b102-f4f04b70342f",
+  "name": "number of days.tips - yes",
+  "auto": true,
+  "contexts": [
+    "numberofdays-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "numberofdays.numberofdays-yes",
+      "affectedContexts": [
+        {
+          "name": "numberofdaystips-yes-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Tips",
+                  "text": [
+                    "Get Some Exercise",
+                    "Challenge Negative Thoughts",
+                    "Regularly Eat Wholesome Foods.",
+                    "Get Adequate Sleep.",
+                    "Drink Plenty of Water.",
+                    "Make a Change in Routine",
+                    "Get a Routine.",
+                    "Laughter."
+                  ],
+                  "type": "description"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What would like to do ?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "games"
+                    },
+                    {
+                      "text": "jokes"
+                    },
+                    {
+                      "text": "videos"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

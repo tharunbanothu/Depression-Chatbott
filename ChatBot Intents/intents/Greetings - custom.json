@@ -1,0 +1,59 @@
+{
+  "id": "f6fe2901-a9d2-4dc9-be13-9a37d47258dc",
+  "parentId": "a57c37a7-06fa-4f52-921a-c3d23fafc93b",
+  "rootParentId": "a57c37a7-06fa-4f52-921a-c3d23fafc93b",
+  "name": "Greetings - custom",
+  "auto": true,
+  "contexts": [
+    "Greetings-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Greetings.Greetings-custom",
+      "affectedContexts": [
+        {
+          "name": "Greetings-custom-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3253b7d1-db6a-47c5-aec6-683c9060b434",
+          "name": "person",
+          "required": false,
+          "dataType": "@sys.person",
+          "value": "$person",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay! $person  , What\u0027s your Age ?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

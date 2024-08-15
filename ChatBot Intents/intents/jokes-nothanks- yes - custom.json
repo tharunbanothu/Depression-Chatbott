@@ -1,0 +1,83 @@
+{
+  "id": "30ca594e-7c69-4e5d-8c84-3090bbb7d70e",
+  "parentId": "e513a270-7d12-455e-9f08-eace29018540",
+  "rootParentId": "8daa0f69-e763-41da-b102-f4f04b70342f",
+  "name": "jokes-nothanks- yes - custom",
+  "auto": true,
+  "contexts": [
+    "jokes-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "numberofdays.numberofdays-no.numberofdaysjokes-no-yes.jokes-yes-custom",
+      "affectedContexts": [
+        {
+          "name": "jokes-nothanks-yes-custom-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "e3dbb63f-d5ef-4801-9f75-190cd9fc2eb7",
+          "name": "undepressed",
+          "required": false,
+          "dataType": "@undepressed",
+          "value": "$undepressed",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Do you wanna spend more time?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "yes"
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

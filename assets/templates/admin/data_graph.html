@@ -1,0 +1,186 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Depression Chatbot</title>
+  <!-- base:css -->
+  <link rel="stylesheet" href="{% static 'admin/vendors/mdi/css/materialdesignicons.min.css' %}">
+  <link rel="stylesheet" href="{% static 'admin/vendors/css/vendor.bundle.base.css' %}">
+  <!-- endinject -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="{% static 'admin/css/style.css' %}">
+  <!-- endinject -->
+  <!-- <link rel="shortcut icon" href="{% static 'admin/images/logo.webp' %}" /> -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+</head>
+
+<body>
+  <div class="container-scroller d-flex">
+    <!-- partial:../../partials/_sidebar.html -->
+    <nav class="sidebar sidebar-offcanvas" id="sidebar">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'admin_dashboard' %}">
+            <i class="mdi mdi-view-quilt menu-icon"></i>
+            <span class="menu-title">Dashboard</span>
+          </a>
+        </li>
+       
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+              <i class="mdi mdi-account-multiple menu-icon"></i>
+              <span class="menu-title">User Management</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="ui-basic">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item mdi mdi-account-plus"> <a class="nav-link" href="{% url 'pending_users' %}">Pending Users</a></li>
+                <li class="nav-item mdi mdi-account-convert"> <a class="nav-link" href="{% url 'all_users' %}">All Users</a></li>
+              </ul>
+            </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="collapse" href="#feedback" aria-expanded="false" aria-controls="ui-basic">
+            <i class=" mdi mdi-puzzle menu-icon"></i>
+            <span class="menu-title">Feedback Management</span>
+            <i class="menu-arrow"></i>
+          </a>
+          <div class="collapse" id="feedback">
+            <ul class="nav flex-column sub-menu">
+              <li class="nav-item mdi mdi-emoticon"> <a class="nav-link" href="{% url 'user_feedback' %}">User feedback</a></li>
+              <li class="nav-item mdi mdi-chart-bar"> <a class="nav-link" href="{% url 'admin_graph' %}">Sentiment Analysis</a></li>
+            </ul>
+          </div>
+      </li>
+
+       
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="collapse" href="#analysis" aria-expanded="false" aria-controls="ui-basic">
+            <i class="mdi mdi-chart-areaspline menu-icon"></i>
+            <span class="menu-title">Depression Management</span>
+            <i class="menu-arrow"></i>
+          </a>
+          <div class="collapse" id="analysis">
+            <ul class="nav flex-column sub-menu">
+              <li class="nav-item mdi mdi-gavel"> <a class="nav-link" href="{% url 'upload_data' %}">Upload Dataset</a></li>
+              <li class="nav-item mdi mdi-gavel"> <a class="nav-link" href="{% url 'excel_graph' dp udp %}">Dataset Analysis</a></li>
+            </ul>
+          </div>
+        </li>
+        
+        
+       
+        
+        
+        
+        
+        
+        
+        
+      
+      </ul>
+    </nav>
+    
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <!-- partial:../../partials/_navbar.html -->
+      <nav class="navbar col-lg-12 col-12 px-0 py-0 py-lg-4 d-flex flex-row">
+        <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+          <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+            <span class="mdi mdi-menu"></span>
+          </button>
+          <div class="navbar-brand-wrapper">
+            <a class="navbar-brand brand-logo" href="#"><img src="{% static 'admin/images/admin.png' %}" alt="logo"/></a>
+            <a class="navbar-brand brand-logo-mini" href="#"><img src="{% static 'admin/images/logo-mini.svg' %}" alt="logo"/></a>
+          </div>
+          <h4 class="font-weight-bold mb-0 d-none d-md-block mt-1">Welcome back &nbsp; Admin</h4>
+          <ul class="navbar-nav navbar-nav-right">
+            
+            
+            <li class="nav-item dropdown mr-2">
+              <a class="nav-link count-indicator dropdown-toggle d-flex align-items-center justify-content-center" id="notificationDropdown" href="#" data-toggle="dropdown">
+                <i class="mdi mdi-export mx-0"></i>
+                <div class="font-weight-normal">
+                <a href="{% url 'admin_logout' %}" style="font-weight:bolder ; font-size: medium; color:white;" >&nbsp; LogOut</a>
+              </div>
+              </a>
+              
+            </li>
+          </ul>
+          <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+            <span class="mdi mdi-menu"></span>
+          </button>
+        </div>
+        
+      </nav>      
+            
+      <!-- partial -->
+      <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="row ">
+            <div class="col-lg-12">
+              <div class="row">
+                <!-- [ variant-chart ] start -->
+                    <!-- <div class="col-12"> -->
+                      <table border="2px" class="table table-hover">
+                        <thead >
+                          <tr style="border: 2px solid;">
+                            <th>Date</th>
+                            <th>Name</th>
+                            <th>tweet</th>
+                            <th>Sentiment</th>
+                            <!-- <th>Undepressed</th> -->
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {% for j in i %}
+                          <tr style="border:2px solid rgb(120, 109, 109);">
+                            <td>{{j.date}}</td>
+                            <td>{{j.name}}</td>
+                            <td>{{j.tweet}}</td>  
+                            <td>{{j.sentiment}}</td>
+                          </tr>
+                          {% endfor %}
+                        </tbody>
+                      </table>
+                    <!-- </div> -->
+              </div>            
+                <!-- [ variant-chart ] end -->
+        </div>
+        <footer class="footer">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-sm-flex justify-content-center justify-content-sm-between">
+                  <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">team_trailblazers. All rights reserved.</span>
+                  <span class="text-muted d-block text-center text-sm-left d-sm-inline-block"> Designed and Developed By: <a href="#" target="_blank">team_trailblazers</a></span>
+                </div>
+              </div>
+            </div>
+          </footer>
+      </div>
+    </div>
+    <!-- page-body-wrapper ends -->
+      </div>
+  <!-- container-scroller -->
+  <!-- base:js -->
+  <script src="{% static 'admin/vendors/js/vendor.bundle.base.js' %}"></script>
+  <!-- endinject -->
+  <!-- inject:js -->
+  <script src="{% static 'admin/js/off-canvas.js' %}"></script>
+  <script src="{% static 'admin/js/hoverable-collapse.js' %}"></script>
+  <script src="{% static 'admin/js/template.js' %}"></script>
+  <!-- endinject -->
+  <!-- plugin js for this page -->
+  <script src="{% static 'admin/vendors/chart.js/Chart.min.js' %}"></script>
+  <!-- End plugin js for this page -->
+  <!-- Custom js for this page-->
+  <script src="{% static 'admin/js/chart.js' %}"></script>
+  <!-- End custom js for this page-->
+</body>
+
+</html>

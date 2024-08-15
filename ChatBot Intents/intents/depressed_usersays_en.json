@@ -1,0 +1,197 @@
+[
+  {
+    "id": "ad6001e2-929c-40cf-a35b-c8f9e4148049",
+    "data": [
+      {
+        "text": "broken",
+        "meta": "@depressed",
+        "alias": "depressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f157d67a-7afd-4fef-ada9-fe64766e6dad",
+    "data": [
+      {
+        "text": "feeling sad",
+        "meta": "@depressed",
+        "alias": "depressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "771867a0-206f-4a6d-be16-8ba7ea71dab9",
+    "data": [
+      {
+        "text": "daunting",
+        "meta": "@depressed",
+        "alias": "depressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b02e101e-b731-41c2-9ff3-794072cc0b8a",
+    "data": [
+      {
+        "text": "oppressive",
+        "meta": "@depressed",
+        "alias": "depressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "aadd044a-8049-4dc2-816a-846c3b24b365",
+    "data": [
+      {
+        "text": "bleak",
+        "meta": "@depressed",
+        "alias": "depressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b19c0ed9-a2b8-4100-b4dd-0e8149b4cd53",
+    "data": [
+      {
+        "text": "disheartening",
+        "meta": "@depressed",
+        "alias": "depressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cc0dd52f-33f1-48ee-af1b-4613720b74d6",
+    "data": [
+      {
+        "text": "debilitated",
+        "meta": "@depressed",
+        "alias": "depressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "aae17dca-127c-4725-a94b-a7646a5429f9",
+    "data": [
+      {
+        "text": "unhappy",
+        "meta": "@depressed",
+        "alias": "depressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "baed1e8f-2454-4d4c-899d-259f9f0025f9",
+    "data": [
+      {
+        "text": "low",
+        "meta": "@depressed",
+        "alias": "depressed",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8eeb463b-f495-4151-8b92-80d3958d7b28",
+    "data": [
+      {
+        "text": "feeling alone",
+        "meta": "@depressed",
+        "alias": "depressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "84c0cf3f-1ff3-476d-b9d1-33f1be31f9a8",
+    "data": [
+      {
+        "text": "depressed",
+        "meta": "@depressed",
+        "alias": "depressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "aafd032c-4225-4851-8148-863d0f15d1e4",
+    "data": [
+      {
+        "text": "gloomy",
+        "meta": "@depressed",
+        "alias": "depressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "526d7571-2d52-40cb-91c4-7737db76eadb",
+    "data": [
+      {
+        "text": "moody",
+        "meta": "@depressed",
+        "alias": "depressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "lang": "en",
+    "updated": 0
+  }
+]

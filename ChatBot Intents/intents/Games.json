@@ -1,0 +1,55 @@
+{
+  "id": "db4e6d4c-13a3-4370-8aee-22a128ee287c",
+  "name": "Games",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Games-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "96eefb91-59f9-480e-a99a-3cc5eed68b05",
+          "name": "Games",
+          "required": false,
+          "dataType": "@Games",
+          "value": "$Games",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Would you like to play games"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,69 @@
+{
+  "id": "2b9c85b0-f08e-4f19-acb9-9850590c911b",
+  "parentId": "a640c7f0-68f7-4f97-a20e-b832f29230d2",
+  "rootParentId": "8daa0f69-e763-41da-b102-f4f04b70342f",
+  "name": "number of days.game? - no",
+  "auto": true,
+  "contexts": [
+    "numberofdaysjokes-no-followup",
+    "numberofdaysjokes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "numberofdays.numberofdays-no.numberofdaysjokes-no",
+      "affectedContexts": [
+        {
+          "name": "numberofdaysgame-no-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Would you like to play games ?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Yeah"
+                    },
+                    {
+                      "text": "I dont like it"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

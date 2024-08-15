@@ -1,0 +1,88 @@
+{
+  "id": "8dc3c73b-ad49-4c0a-81b1-3e642d456dad",
+  "parentId": "99edd378-a98f-4bfd-9bed-d381f0ecf897",
+  "rootParentId": "99edd378-a98f-4bfd-9bed-d381f0ecf897",
+  "name": "Videos - yes",
+  "auto": true,
+  "contexts": [
+    "Videos-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Videos.Videos-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "button",
+                  "text": "Youtube",
+                  "link": "https://www.youtube.com/watch?v=keg_2PlBnbY",
+                  "icon": {
+                    "color": "#FF9800",
+                    "type": "link"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Would you like to do other activities ?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "videos"
+                    },
+                    {
+                      "text": "jokes"
+                    },
+                    {
+                      "text": "motivational quotes"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

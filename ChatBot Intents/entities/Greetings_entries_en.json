@@ -1,0 +1,28 @@
+[
+  {
+    "value": "Good Morning",
+    "synonyms": [
+      "Good morning",
+      "GM"
+    ]
+  },
+  {
+    "value": "Good Afternoon",
+    "synonyms": [
+      "good afternoon"
+    ]
+  },
+  {
+    "value": "Good Night",
+    "synonyms": [
+      "good night",
+      "GN"
+    ]
+  },
+  {
+    "value": "Good Evening",
+    "synonyms": [
+      "good evening"
+    ]
+  }
+]

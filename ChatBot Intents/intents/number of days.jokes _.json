@@ -1,0 +1,72 @@
+{
+  "id": "a640c7f0-68f7-4f97-a20e-b832f29230d2",
+  "parentId": "8daa0f69-e763-41da-b102-f4f04b70342f",
+  "rootParentId": "8daa0f69-e763-41da-b102-f4f04b70342f",
+  "name": "number of days.jokes ?",
+  "auto": true,
+  "contexts": [
+    "numberofdays-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "numberofdays.numberofdays-no",
+      "affectedContexts": [
+        {
+          "name": "numberofdaysjokes-no-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "numberofdaysjokes-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Would you like to hear jokes ?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Yes"
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

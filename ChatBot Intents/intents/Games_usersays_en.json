@@ -1,0 +1,17 @@
+[
+  {
+    "id": "fd1a9e3e-ebb2-49b3-9993-2a89cf05acce",
+    "data": [
+      {
+        "text": "games",
+        "meta": "@Games",
+        "alias": "Games",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

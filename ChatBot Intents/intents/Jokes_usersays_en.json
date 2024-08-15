@@ -1,0 +1,77 @@
+[
+  {
+    "id": "624ca53a-a4cc-4da7-80d5-cd030b698a63",
+    "data": [
+      {
+        "text": "comedy lines",
+        "meta": "@jokes",
+        "alias": "jokes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "55be07ee-7a98-49cc-90b0-47ebeb01bded",
+    "data": [
+      {
+        "text": "comic lines",
+        "meta": "@jokes",
+        "alias": "jokes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a3077299-f50a-4e85-bbe5-a043e3ea59dd",
+    "data": [
+      {
+        "text": "comedy",
+        "meta": "@jokes",
+        "alias": "jokes",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "45b50305-11c7-4540-b658-58dc31183bb6",
+    "data": [
+      {
+        "text": "jokes",
+        "meta": "@jokes",
+        "alias": "jokes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5191b15d-4d7c-4314-a96d-d5ea1f77ecb3",
+    "data": [
+      {
+        "text": "joke",
+        "meta": "@jokes",
+        "alias": "jokes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,83 @@
+{
+  "id": "a2650ef3-724b-4867-aab1-a7de76717961",
+  "parentId": "db4e6d4c-13a3-4370-8aee-22a128ee287c",
+  "rootParentId": "db4e6d4c-13a3-4370-8aee-22a128ee287c",
+  "name": "Games - yes",
+  "auto": true,
+  "contexts": [
+    "Games-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Games.Games-yes",
+      "affectedContexts": [
+        {
+          "name": "Games-yes-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "icon": {
+                    "type": "link",
+                    "color": "#FF9800"
+                  },
+                  "text": "Games website",
+                  "link": "https://poki.com/",
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "videos"
+                    },
+                    {
+                      "text": "jokes"
+                    },
+                    {
+                      "text": "motivational quotes"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

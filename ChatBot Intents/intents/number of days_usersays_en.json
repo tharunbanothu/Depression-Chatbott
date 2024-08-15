@@ -1,0 +1,225 @@
+[
+  {
+    "id": "4565128a-dd37-483d-8cec-011ffb6319f2",
+    "data": [
+      {
+        "text": "one month",
+        "meta": "@days",
+        "alias": "days",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "414fb0e1-faba-4614-b4a1-9e1fb817889c",
+    "data": [
+      {
+        "text": "1 month",
+        "meta": "@days",
+        "alias": "days",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8fc1403f-93a4-4da8-85d8-2c6d368a302b",
+    "data": [
+      {
+        "text": "two weeks",
+        "meta": "@days",
+        "alias": "days",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3da62621-d170-4886-b9f0-27322125feed",
+    "data": [
+      {
+        "text": "one week",
+        "meta": "@days",
+        "alias": "days",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "676d8cb0-8f34-4f23-a736-cd5c08987754",
+    "data": [
+      {
+        "text": "2 weeks",
+        "meta": "@days",
+        "alias": "days",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5b507acb-9eaa-422b-afca-7a585fe3c32f",
+    "data": [
+      {
+        "text": "1 week",
+        "meta": "@days",
+        "alias": "days",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e5156d7a-060c-4bd0-b749-ca762e3dfb72",
+    "data": [
+      {
+        "text": "seven",
+        "meta": "@days",
+        "alias": "days",
+        "userDefined": false
+      },
+      {
+        "text": " days",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ea3586bd-bef0-47d7-91f9-16f7ed1133b4",
+    "data": [
+      {
+        "text": "six",
+        "meta": "@days",
+        "alias": "days",
+        "userDefined": false
+      },
+      {
+        "text": " days",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "378223a9-cbdb-48cf-810f-0bf9f5dd8a7b",
+    "data": [
+      {
+        "text": "five",
+        "meta": "@days",
+        "alias": "days",
+        "userDefined": false
+      },
+      {
+        "text": " days",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c5caeab1-1941-4591-bb9f-63e93136b663",
+    "data": [
+      {
+        "text": "four",
+        "meta": "@days",
+        "alias": "days",
+        "userDefined": false
+      },
+      {
+        "text": " days",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6c21bd79-ce00-47b7-b180-512f22fb56a2",
+    "data": [
+      {
+        "text": "three",
+        "meta": "@days",
+        "alias": "days",
+        "userDefined": false
+      },
+      {
+        "text": " days",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f7f9794c-3a6d-41ae-badd-09aabafc3106",
+    "data": [
+      {
+        "text": "two",
+        "meta": "@days",
+        "alias": "days",
+        "userDefined": false
+      },
+      {
+        "text": " days",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ea7357a7-3337-4d8f-82a3-23199c1917e5",
+    "data": [
+      {
+        "text": "one",
+        "meta": "@days",
+        "alias": "days",
+        "userDefined": true
+      },
+      {
+        "text": " day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

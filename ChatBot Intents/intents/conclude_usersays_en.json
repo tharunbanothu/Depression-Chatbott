@@ -1,0 +1,51 @@
+[
+  {
+    "id": "4d84ed45-657f-4b12-8345-8654c7c5aabc",
+    "data": [
+      {
+        "text": "appreciated",
+        "meta": "@conclusion",
+        "alias": "conclusion",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d2c29254-44ed-4d9d-90eb-4d9db246d914",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "appreciate you",
+        "meta": "@conclusion",
+        "alias": "conclusion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d12f04da-ced6-4ea5-aa6f-b04ad888f9ac",
+    "data": [
+      {
+        "text": "thanks",
+        "meta": "@conclusion",
+        "alias": "conclusion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "value": "jokes",
+    "synonyms": [
+      "jokes"
+    ]
+  },
+  {
+    "value": "joke",
+    "synonyms": [
+      "joke"
+    ]
+  },
+  {
+    "value": "show me jokes",
+    "synonyms": [
+      "show me jokes"
+    ]
+  },
+  {
+    "value": "comedy lines",
+    "synonyms": [
+      "comedy lines"
+    ]
+  },
+  {
+    "value": "comic lines",
+    "synonyms": [
+      "comic lines"
+    ]
+  }
+]

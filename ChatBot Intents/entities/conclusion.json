@@ -1,0 +1,9 @@
+{
+  "id": "bd584ce7-91fe-4f0c-9c97-3728da903aa9",
+  "name": "conclusion",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

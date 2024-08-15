@@ -1,0 +1,111 @@
+{
+  "id": "f221c38f-da9e-4248-94e7-b51bfc95741e",
+  "parentId": "d383dccf-eb86-465a-a3a9-e80c650fc02b",
+  "rootParentId": "d383dccf-eb86-465a-a3a9-e80c650fc02b",
+  "name": "Jokes - yes",
+  "auto": true,
+  "contexts": [
+    "Jokes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Jokes.Jokes-yes",
+      "affectedContexts": [
+        {
+          "name": "Jokes-yes-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I failed math so many times at school, I can’t even count.",
+            "I want to die peacefully in my sleep, like my grandfather… Not screaming and yelling like the passengers in his car.",
+            "I can’t believe I got fired from the calendar factory. All I did was take a day off.",
+            "My wife just found out I replaced our bed with a trampoline. She hit the ceiling!",
+            "I always take life with a grain of salt. And a slice of lemon. And a shot of tequila.",
+            "Just burned 2,000 calories. That’s the last time I leave brownies in the oven while I nap.",
+            "Always borrow money from a pessimist. They’ll never expect it back.",
+            "Today a man knocked on my door and asked for a small donation toward the local swimming pool. I gave him a glass of water.",
+            "I’m reading a book about anti-gravity. It’s impossible to put down.",
+            "A recent study has found that women who carry a little extra weight live longer than the men who mention it."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "next"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Do you want to do other activities ?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "videos"
+                    },
+                    {
+                      "text": "jokes"
+                    },
+                    {
+                      "text": "motivational quotes"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

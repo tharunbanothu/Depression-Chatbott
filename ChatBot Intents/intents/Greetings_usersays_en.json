@@ -1,0 +1,261 @@
+[
+  {
+    "id": "3df0bfc1-37a9-4e1c-9ecc-aa6ce19d875d",
+    "data": [
+      {
+        "text": "GN",
+        "meta": "@Greetings",
+        "alias": "Greetings",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9dc7693c-9fdc-4aa8-97ea-66f6e01c8a17",
+    "data": [
+      {
+        "text": "GM",
+        "meta": "@Greetings",
+        "alias": "Greetings",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "33daa0ab-07f4-487e-941f-00bd43e07d84",
+    "data": [
+      {
+        "text": "good evening",
+        "meta": "@Greetings",
+        "alias": "Greetings",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8d5f48e3-8f22-4787-8c16-9dffa21dbc27",
+    "data": [
+      {
+        "text": "good afternoon",
+        "meta": "@Greetings",
+        "alias": "Greetings",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "775ef6f9-e487-40b3-a07d-d0d679ce7eea",
+    "data": [
+      {
+        "text": "good night",
+        "meta": "@Greetings",
+        "alias": "Greetings",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "131ea32e-f941-4d9f-aa70-1b0ea99c33a3",
+    "data": [
+      {
+        "text": "good morning",
+        "meta": "@Greetings",
+        "alias": "Greetings",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ae2fdf4e-2d12-4cc2-97d3-24659b5dde4c",
+    "data": [
+      {
+        "text": "hi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0b8e7909-3d66-4a67-93cf-c24cca7786c2",
+    "data": [
+      {
+        "text": "Hello",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d3616b56-d16c-42f7-a7fa-f67c598ddcb9",
+    "data": [
+      {
+        "text": "long time no see",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8720f2ad-7e80-4883-b1c5-5cec396de116",
+    "data": [
+      {
+        "text": "hey",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "85c18041-d7fd-44d7-b073-5f8c2e15ab1b",
+    "data": [
+      {
+        "text": "greetings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dbee8f88-b9c1-4ac1-ac6e-52e1343288d1",
+    "data": [
+      {
+        "text": "hey there",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6a732083-636c-4c11-b58f-97ba01153702",
+    "data": [
+      {
+        "text": "howdy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9df77c8c-755b-4ab7-8a3f-4a81148e578f",
+    "data": [
+      {
+        "text": "hello hi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cc424204-9757-4b26-91a2-6c6f882e356f",
+    "data": [
+      {
+        "text": "heya",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bb541634-f2f4-4a92-856f-5f261450f002",
+    "data": [
+      {
+        "text": "just going to say hi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e9a95cf9-49f0-4760-8a70-a86c5bd49691",
+    "data": [
+      {
+        "text": "hello there",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "68b8b739-4146-43a5-a477-f315e0e0eae0",
+    "data": [
+      {
+        "text": "hi there",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5873b860-a910-497f-8df0-8b844b304de8",
+    "data": [
+      {
+        "text": "hy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  }
+]

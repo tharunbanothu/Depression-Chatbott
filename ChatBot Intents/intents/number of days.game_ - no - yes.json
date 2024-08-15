@@ -1,0 +1,78 @@
+{
+  "id": "a5a9c237-ce0c-492d-b34c-4ab250a401de",
+  "parentId": "2b9c85b0-f08e-4f19-acb9-9850590c911b",
+  "rootParentId": "8daa0f69-e763-41da-b102-f4f04b70342f",
+  "name": "number of days.game? - no - yes",
+  "auto": true,
+  "contexts": [
+    "numberofdaysgame-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "numberofdays.numberofdays-no.numberofdaysjokes-no.numberofdaysgame-no-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "link": "https://poki.com/",
+                  "type": "button",
+                  "icon": {
+                    "type": "link",
+                    "color": "#FF9800"
+                  },
+                  "text": "Games website"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "videos"
+                    },
+                    {
+                      "text": "jokes"
+                    },
+                    {
+                      "text": "motivational quotes"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

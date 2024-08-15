@@ -1,0 +1,82 @@
+{
+  "id": "aaeb3429-9969-4e9b-9788-e946e02d2ef6",
+  "parentId": "f6fe2901-a9d2-4dc9-be13-9a37d47258dc",
+  "rootParentId": "a57c37a7-06fa-4f52-921a-c3d23fafc93b",
+  "name": "Greetings - custom - custom",
+  "auto": true,
+  "contexts": [
+    "Greetings-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Greetings.Greetings-custom.Greetings-custom-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c5bc66e0-2ede-488d-b476-3da04089a409",
+          "name": "age",
+          "required": false,
+          "dataType": "@sys.age",
+          "value": "$age",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "text": [
+                    "I\u0027m looking forward to getting to know you better"
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "How you feeling today?"
+                  ],
+                  "type": "description"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

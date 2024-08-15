@@ -1,0 +1,53 @@
+{
+  "id": "cdb4409f-2439-4784-8d5d-85a237950003",
+  "parentId": "30ca594e-7c69-4e5d-8c84-3090bbb7d70e",
+  "rootParentId": "8daa0f69-e763-41da-b102-f4f04b70342f",
+  "name": "jokes-nothanks- yes - custom - yes",
+  "auto": true,
+  "contexts": [
+    "jokes-nothanks-yes-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "numberofdays.numberofdays-no.numberofdaysjokes-no-yes.jokes-yes-custom.jokes-nothanks-yes-custom-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Games"
+                    },
+                    {
+                      "text": "Videos"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

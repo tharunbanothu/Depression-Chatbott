@@ -1,0 +1,75 @@
+{
+  "id": "351c5fdc-4a76-43b3-8f9c-1525c20f2afd",
+  "parentId": "99edd378-a98f-4bfd-9bed-d381f0ecf897",
+  "rootParentId": "99edd378-a98f-4bfd-9bed-d381f0ecf897",
+  "name": "Videos - no",
+  "auto": true,
+  "contexts": [
+    "Videos-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Videos.Videos-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "games"
+                    },
+                    {
+                      "text": "jokes"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Videos"
+            },
+            {
+              "title": "games"
+            },
+            {
+              "title": "jokes"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "18863061-b017-4d5a-9382-c990e4487133",
+  "parentId": "2b9c85b0-f08e-4f19-acb9-9850590c911b",
+  "rootParentId": "8daa0f69-e763-41da-b102-f4f04b70342f",
+  "name": "number of days.videos? - no - no",
+  "auto": true,
+  "contexts": [
+    "numberofdaysgame-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "numberofdays.numberofdays-no.numberofdaysjokes-no.numberofdaysgame-no-no",
+      "affectedContexts": [
+        {
+          "name": "numberofdaysvideos-no-no-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Would you to like to watch videos?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Yes"
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,47 @@
+{
+  "id": "cf8facfd-77da-451b-a114-e67246cf6fc8",
+  "parentId": "30ca594e-7c69-4e5d-8c84-3090bbb7d70e",
+  "rootParentId": "8daa0f69-e763-41da-b102-f4f04b70342f",
+  "name": "jokes-nothanks- yes - custom - no",
+  "auto": true,
+  "contexts": [
+    "jokes-nothanks-yes-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "numberofdays.numberofdays-no.numberofdaysjokes-no-yes.jokes-yes-custom.jokes-nothanks-yes-custom-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "No problem",
+            "it\u0027s always nice to hear from you, and l\u0027ll see you next time"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

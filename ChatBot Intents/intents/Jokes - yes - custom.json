@@ -1,0 +1,43 @@
+{
+  "id": "11f7656d-dcb4-4965-9528-daf252388a73",
+  "parentId": "f221c38f-da9e-4248-94e7-b51bfc95741e",
+  "rootParentId": "d383dccf-eb86-465a-a3a9-e80c650fc02b",
+  "name": "Jokes - yes - custom",
+  "auto": true,
+  "contexts": [
+    "Jokes-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Jokes.Jokes-yes.Jokes-yes-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I want to die peacefully in my sleep, like my grandfather… Not screaming and yelling like the passengers in his car.",
+            "I can’t believe I got fired from the calendar factory. All I did was take a day off.",
+            "Today a man knocked on my door and asked for a small donation toward the local swimming pool. I gave him a glass of water.",
+            "Just burned 2,000 calories. That’s the last time I leave brownies in the oven while I nap.",
+            "I always take life with a grain of salt. And a slice of lemon. And a shot of tequila."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

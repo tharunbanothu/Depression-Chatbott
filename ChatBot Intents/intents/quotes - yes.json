@@ -1,0 +1,92 @@
+{
+  "id": "2dc25f94-0a7e-4c39-8571-d287745182a8",
+  "parentId": "052e5405-19ef-42d7-8853-c839f4b387ab",
+  "rootParentId": "052e5405-19ef-42d7-8853-c839f4b387ab",
+  "name": "quotes - yes",
+  "auto": true,
+  "contexts": [
+    "quotes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "quotes.quotes-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "Quotes",
+                  "text": [
+                    "1 - You can get everything in life you want if you will just help enough other people get what they want.”—Zig Ziglar",
+                    "2 - Inspiration does exist, but it must find you working. —Pablo Picasso",
+                    "3 - Don\u0027t settle for average. Bring your best to the moment. Then, whether it fails or succeeds, at least you know you gave all you had. —Angela Bassett",
+                    "4 - Show up, show up, show up, and after a while the muse shows up, too. —Isabel Allende",
+                    "5 - Don\u0027t bunt. Aim out of the ballpark. Aim for the company of immortals. ―David Ogilvy",
+                    "6 - I have stood on a mountain of no’s for one yes. —Barbara Elaine Smith",
+                    "7 - If you believe something needs to exist, if it\u0027s something you want to use yourself, don\u0027t let anyone ever stop you from doing it. —Tobias Lütke"
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What would like to do next ?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Games"
+                    },
+                    {
+                      "text": "Videos"
+                    },
+                    {
+                      "text": "jokes"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

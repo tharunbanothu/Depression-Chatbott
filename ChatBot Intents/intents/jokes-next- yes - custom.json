@@ -1,0 +1,82 @@
+{
+  "id": "c3a10c83-c592-4702-b5f6-ad934e25f872",
+  "parentId": "e513a270-7d12-455e-9f08-eace29018540",
+  "rootParentId": "8daa0f69-e763-41da-b102-f4f04b70342f",
+  "name": "jokes-next- yes - custom",
+  "auto": true,
+  "contexts": [
+    "jokes-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "numberofdays.numberofdays-no.numberofdaysjokes-no-yes.jokes-yes-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I failed math so many times at school, I can’t even count.",
+            "I want to die peacefully in my sleep, like my grandfather… Not screaming and yelling like the passengers in his car.",
+            "Today a man knocked on my door and asked for a small donation toward the local swimming pool. I gave him a glass of water.",
+            "I can’t believe I got fired from the calendar factory. All I did was take a day off.",
+            "I’m reading a book about anti-gravity. It’s impossible to put down.",
+            "My wife just found out I replaced our bed with a trampoline. She hit the ceiling!",
+            "I always take life with a grain of salt. And a slice of lemon. And a shot of tequila.",
+            "Just burned 2,000 calories. That’s the last time I leave brownies in the oven while I nap.",
+            "Always borrow money from a pessimist. They’ll never expect it back.",
+            "A recent study has found that women who carry a little extra weight live longer than the men who mention it."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What would you like to do ?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Videos"
+                    },
+                    {
+                      "text": "Games"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

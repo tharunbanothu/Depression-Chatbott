@@ -1,0 +1,197 @@
+[
+  {
+    "id": "5947e9a0-e2f6-4be8-a9ab-469db1b9535b",
+    "data": [
+      {
+        "text": "cheerful",
+        "meta": "@undepressed",
+        "alias": "undepressed",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c9a568b1-8063-4bc2-a96d-3f88ef0c3f23",
+    "data": [
+      {
+        "text": "happy",
+        "meta": "@undepressed",
+        "alias": "undepressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "004ee401-a78d-4de8-ae27-4912a2a589e0",
+    "data": [
+      {
+        "text": "good",
+        "meta": "@undepressed",
+        "alias": "undepressed",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c876c67e-8e6f-41ba-8fcb-a827707a0dc1",
+    "data": [
+      {
+        "text": "super",
+        "meta": "@undepressed",
+        "alias": "undepressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fcd30942-a21b-4ce6-9e4f-7b3b78dc0a0f",
+    "data": [
+      {
+        "text": "beautiful",
+        "meta": "@undepressed",
+        "alias": "undepressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6f306339-02ef-4d8b-9e31-d9eb875f1850",
+    "data": [
+      {
+        "text": "enjoyed",
+        "meta": "@undepressed",
+        "alias": "undepressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2e19af5e-1f71-42e0-9606-50db8fa252dc",
+    "data": [
+      {
+        "text": "great",
+        "meta": "@undepressed",
+        "alias": "undepressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bc9c5d82-f1b1-4a0c-a528-fd1151836977",
+    "data": [
+      {
+        "text": "thrilled",
+        "meta": "@undepressed",
+        "alias": "undepressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4261aeb8-04c6-484c-a108-bc2993435d86",
+    "data": [
+      {
+        "text": "joyful",
+        "meta": "@undepressed",
+        "alias": "undepressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "13a009e4-d048-49b9-bcd7-613ca2709227",
+    "data": [
+      {
+        "text": "thankful",
+        "meta": "@undepressed",
+        "alias": "undepressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a4efc163-fbee-438f-92ba-44c16d4f04d7",
+    "data": [
+      {
+        "text": "pleased",
+        "meta": "@undepressed",
+        "alias": "undepressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f66b69fc-f933-4ede-b686-00390342c18f",
+    "data": [
+      {
+        "text": "delighted",
+        "meta": "@undepressed",
+        "alias": "undepressed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2535e6fd-7777-45d2-9d7b-a46c7e550b6d",
+    "data": [
+      {
+        "text": "glad",
+        "meta": "@undepressed",
+        "alias": "undepressed",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  }
+]

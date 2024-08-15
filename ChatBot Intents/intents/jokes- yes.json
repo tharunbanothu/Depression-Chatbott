@@ -1,0 +1,77 @@
+{
+  "id": "e513a270-7d12-455e-9f08-eace29018540",
+  "parentId": "a640c7f0-68f7-4f97-a20e-b832f29230d2",
+  "rootParentId": "8daa0f69-e763-41da-b102-f4f04b70342f",
+  "name": "jokes- yes",
+  "auto": true,
+  "contexts": [
+    "numberofdaysjokes-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "numberofdays.numberofdays-no.numberofdaysjokes-no-yes",
+      "affectedContexts": [
+        {
+          "name": "jokes-yes-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I failed math so many times at school, I can’t even count.",
+            "I want to die peacefully in my sleep, like my grandfather… Not screaming and yelling like the passengers in his car.",
+            "I can’t believe I got fired from the calendar factory. All I did was take a day off.",
+            "My wife just found out I replaced our bed with a trampoline. She hit the ceiling!",
+            "I always take life with a grain of salt. And a slice of lemon. And a shot of tequila.",
+            "Just burned 2,000 calories. That’s the last time I leave brownies in the oven while I nap.",
+            "Always borrow money from a pessimist. They’ll never expect it back.",
+            "Today a man knocked on my door and asked for a small donation toward the local swimming pool. I gave him a glass of water.",
+            "I’m reading a book about anti-gravity. It’s impossible to put down.",
+            "A recent study has found that women who carry a little extra weight live longer than the men who mention it."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Next"
+                    },
+                    {
+                      "text": "No thanks"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

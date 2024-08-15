@@ -1,0 +1,9 @@
+{
+  "id": "df328553-3a76-41c3-9e1a-428af4d479b5",
+  "name": "depressed",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

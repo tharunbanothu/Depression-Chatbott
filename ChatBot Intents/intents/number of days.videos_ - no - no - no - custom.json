@@ -1,0 +1,36 @@
+{
+  "id": "aef4397e-64d5-4942-b287-1f2f26575655",
+  "parentId": "65c0d362-25cf-4000-8680-d3ecb2af80a5",
+  "rootParentId": "8daa0f69-e763-41da-b102-f4f04b70342f",
+  "name": "number of days.videos? - no - no - no - custom",
+  "auto": true,
+  "contexts": [
+    "numberofdaysvideos-no-no-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "numberofdays.numberofdays-no.numberofdaysjokes-no.numberofdaysgame-no-no.numberofdaysvideos-no-no-no.numberofdaysvideos-no-no-no-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

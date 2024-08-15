@@ -1,0 +1,83 @@
+[
+  {
+    "value": "one",
+    "synonyms": [
+      "one"
+    ]
+  },
+  {
+    "value": "two",
+    "synonyms": [
+      "two"
+    ]
+  },
+  {
+    "value": "three",
+    "synonyms": [
+      "three"
+    ]
+  },
+  {
+    "value": "four",
+    "synonyms": [
+      "four"
+    ]
+  },
+  {
+    "value": "five",
+    "synonyms": [
+      "five"
+    ]
+  },
+  {
+    "value": "six",
+    "synonyms": [
+      "six"
+    ]
+  },
+  {
+    "value": "seven",
+    "synonyms": [
+      "seven"
+    ]
+  },
+  {
+    "value": "oneweek",
+    "synonyms": [
+      "oneweek",
+      "one week"
+    ]
+  },
+  {
+    "value": "1week",
+    "synonyms": [
+      "1week"
+    ]
+  },
+  {
+    "value": "2weeks",
+    "synonyms": [
+      "2weeks"
+    ]
+  },
+  {
+    "value": "two weeks",
+    "synonyms": [
+      "two weeks"
+    ]
+  },
+  {
+    "value": "onemonth",
+    "synonyms": [
+      "onemonth",
+      "one month"
+    ]
+  },
+  {
+    "value": "10 days",
+    "synonyms": [
+      "10 days",
+      "ten days"
+    ]
+  }
+]
